@@ -3,30 +3,48 @@
 }
 
 body {
-  font-family: poppins, sans-serif;
+  background-color: #1a1a2e;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  font-size: 40px;
+}
+
+.paragraf {
+  color: black;
+  background-color: white;
+  line-height: 1.6;
+}
+
+.catatan {
+  color: black;
+  font-weight: bold;
+  background-color: orange;
+}
+
+#footer {
+  color: black;
+  font-style: italic;
+  background-color: gray;
+  text-align: center;
 }
 
 .kartu {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  width: 400px;
-  padding: 20px;
-  border: 1px solid black;
-  margin: 20px auto;
-  border-radius: 20px;
-  transition: all 0.5s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin: 40px auto 0;
+  padding: 24px;
+  padding-bottom: 8px;
+  background-color: #16213e;
+  border: 2px solid yellow;
+  border-radius: 16px;
 }
 
-.kartu:hover {
-  background-color: crimson;
-  transform: translateY(-10px);
-}
-
-.gambar {
-  width: 120px;
-  height: 120px;
-  flex-shrink: 0;
-  order: 2;
+.kartu2 {
+  margin-top: 0px;
+  color: white;
+  border-bottom: 4px solid yellow;
 }
